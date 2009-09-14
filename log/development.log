@@ -1,0 +1,92 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-14 08:03:01) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing FileUploadController#index (for 127.0.0.1 at 2009-09-14 08:04:14) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing FileUploadController#index (for 127.0.0.1 at 2009-09-14 08:04:28) [GET]
+
+ActionView::MissingTemplate (Missing template file_upload/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FileUploadController#index (for 127.0.0.1 at 2009-09-14 08:04:51) [GET]
+Rendering file_upload/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing FileUploadController#index (for 127.0.0.1 at 2009-09-14 08:08:24) [GET]
+Rendering file_upload/index
+
+ActionView::TemplateError (undefined local variable or method `csv_upload' for #<ActionView::Base:0x1f3ef5c>) on line #1 of app/views/file_upload/index.html.erb:
+1: <%=csv_upload %>this is the index
+
+    app/views/file_upload/index.html.erb:1
+
+Rendered rescues/_trace (35.0ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FileUploadController#index (for 127.0.0.1 at 2009-09-14 08:08:44) [GET]
+Rendering file_upload/index
+
+ActionView::TemplateError (undefined local variable or method `csv_upload' for #<ActionView::Base:0x14b01f8>) on line #1 of app/views/file_upload/index.html.erb:
+1: <%=csv_upload %>this is the index
+
+    app/views/file_upload/index.html.erb:1
+
+Rendered rescues/_trace (34.1ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FileUploadController#index (for 127.0.0.1 at 2009-09-14 08:15:22) [GET]
+Rendering file_upload/index
+
+ActionView::TemplateError (undefined local variable or method `csv_upload' for #<ActionView::Base:0x1e47aa4>) on line #1 of app/views/file_upload/index.html.erb:
+1: <%=csv_upload %>this is the index
+
+    app/views/file_upload/index.html.erb:1
+
+Rendered rescues/_trace (35.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FileUploadController#index (for 127.0.0.1 at 2009-09-14 08:23:39) [GET]
+Rendering file_upload/index
+
+ActionView::TemplateError (undefined method `render_text' for #<FileUploadController:0x14ac8dc>) on line #1 of app/views/file_upload/index.html.erb:
+1: <%=FileUploadController.new.csv_upload %>this is the index
+
+    app/controllers/file_upload_controller.rb:7:in `csv_upload'
+    app/views/file_upload/index.html.erb:1
+
+Rendered rescues/_trace (32.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FileUploadController#index (for 127.0.0.1 at 2009-09-14 08:29:22) [GET]
+Rendering file_upload/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing FileUploadController#index (for 127.0.0.1 at 2009-09-14 08:30:00) [GET]
+Rendering file_upload/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
